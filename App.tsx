@@ -55,141 +55,148 @@
 
 // export default App;
 
-import {StyleSheet, Text, useColorScheme, View, ScrollView} from 'react-native';
-import React from 'react';
 
-const App = () => {
-  const theme = useColorScheme();
-  const isDarkMode = theme === 'dark';
 
-  return (
-    <ScrollView
-    horizontal
-      contentContainerStyle={{
-        gap: 10,
-      }}
-      style={[{backgroundColor: isDarkMode ? 'black' : 'white'}]}>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-      <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
-        App
-      </Text>
-    </ScrollView>
-  );
-};
 
-export default App;
 
-const styles = StyleSheet.create({
-  text: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    color: 'white',
-  },
-});
+
+
+
+// import {StyleSheet, Text, useColorScheme, View, ScrollView} from 'react-native';
+// import React from 'react';
+
+// const App = () => {
+//   const theme = useColorScheme();
+//   const isDarkMode = theme === 'dark';
+
+//   return (
+//     <ScrollView
+//     horizontal
+//       contentContainerStyle={{
+//         gap: 10,
+//       }}
+//       style={[{backgroundColor: isDarkMode ? 'black' : 'white'}]}>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//       <Text style={[styles.text, {color: isDarkMode ? 'white' : 'black'}]}>
+//         App
+//       </Text>
+//     </ScrollView>
+//   );
+// };
+
+// export default App;
+
+// const styles = StyleSheet.create({
+//   text: {
+//     fontSize: 20,
+//     fontWeight: 'bold',
+//     color: 'white',
+//   },
+// });
